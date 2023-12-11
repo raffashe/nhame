@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:nhame/src/ui/common/data.dart';
+import 'package:nhame/src/infra/data/data.dart';
 import 'package:nhame/src/ui/views/receita_view.dart';
 import 'package:provider/provider.dart';
 
