@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:nhame/src/infra/data/data.dart';
+import 'package:nhame/src/ui/common/infra/data/data.dart';
 import 'package:nhame/src/ui/views/receita_view.dart';
 import 'package:provider/provider.dart';
 
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: ReceitaView(),
+      home: const ReceitaView(),
     );
   }
 }
